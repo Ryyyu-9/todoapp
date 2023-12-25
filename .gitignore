@@ -1,0 +1,17 @@
+# this line is comment
+# no need exe file
+#*.exe
+*.git
+*.exe
+# no need bin directory
+#bin/
+venv/
+__pycache__/
+
+# need nuget.exe
+#!/.nuget/nuget.exe
+
+# no need .ts file in package folder
+#package/**/*.ts
+
+#
