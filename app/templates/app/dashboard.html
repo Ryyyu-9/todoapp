@@ -1,0 +1,14 @@
+{% extends "app/base.html" %}
+
+{% block content %}
+<h1>Dashboard</h1>
+<p>Tasks</p>
+<ul>
+    {% for task in tasks %}
+      <li>{{ task }}</li>
+    {% empty %}
+      <li>no task right now. Add some!</li>
+    {% endfor %}
+</ul>
+
+{% endblock content %}
