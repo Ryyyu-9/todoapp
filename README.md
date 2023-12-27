@@ -11,6 +11,9 @@ https://qiita.com/syantien/items/9a8a7cbaeca2be3ef0d7#h-%E7%B6%99%E7%B6%9A%E6%80
 ・READMEおよびコメントアウトを英語化
 ・gitignoreにの書き方
 ・gitkeepの使い方
+・autopep8の使用
+・テストを書く
+・テストを使ったフレームワーク
 
 次回のプロジェクト案
 ・このwebアプリを実際にサーバーを立てて運用（LAN内で）
