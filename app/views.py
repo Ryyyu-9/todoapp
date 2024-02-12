@@ -16,7 +16,7 @@ def task(request, task_id):
     task = Task.objects.get(id=task_id)
     task_detail = task.task_detail
     context = {'task': task, 'task_detail': task_detail}
-    return render(request, 'app/task.html', context)
+    return render(request, 'app/detail_task.html', context)
 
 def add_task(request):
     if request.method != 'POST':

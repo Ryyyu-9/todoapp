@@ -5,7 +5,9 @@
 <p>Tasks</p>
 <ul>
     {% for task in tasks %}
-      <li>{{ task }}</li>
+      <li>
+        <a href="{% url 'app:detail_task' task.id %}">{{ task }}</a>
+      </li>
     {% empty %}
       <li>no task right now. Add some!</li>
     {% endfor %}
